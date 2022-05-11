@@ -2,20 +2,20 @@
     "use strict";
 
     $(".news-slider").owlCarousel({
-        items:3,
-        loop:true,
-        margin:10,
-        autoplay:true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        items: 3,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: true,
     });
 
     $(".testimonial-area").owlCarousel({
         loop: true,
         margin: 10,
         autoplay: true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: true,
         nav: false,
         dots: true,
         autoHeight: true,
